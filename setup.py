@@ -7,6 +7,6 @@ setup(
     packages=find_packages(),  # Automatically find packages in your_library/
     description='A simple example library',
     author='Aakash Yadav',
-    author_email='your.email@example.com',
+    install_requires=['requests>=2.21.0']
 )
 
